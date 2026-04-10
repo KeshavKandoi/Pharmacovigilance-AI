@@ -1,4 +1,4 @@
-import {analyzeDrugData} from "../services/analysisService";
+import {analyzeDrugData} from "../services/analysisService.js";
 
 export const analyzeDrug=async (req,res,next)=>{
   try{
