@@ -11,3 +11,5 @@ app.use(express.json())
 app.use("/api/analyze",analyzeRoutes);
 
 app.use(errorHandler);
+
+export default app;
